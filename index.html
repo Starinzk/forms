@@ -1,0 +1,122 @@
+<!doctype html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http=equiv="x-ua-compatible" content="ie+edge">
+
+		<title>Page Title</title>
+
+		<meta name="description" content="">
+		<meta name="viewport" content ="width=device-width,intial-scale=1">
+
+		<!-- place favicon.ico in the root directory-->
+
+		<link rel="stlyesheet" href="css/style.css">
+
+	</head>
+	<body> 
+
+		<!-- parent element for all form elments--> 
+
+		<form action=" path/to/serverscript.php" method ="post" > 
+
+			<!-- parent element for all form elments--> 
+			<fieldset>
+				<legend> Legend</legend>
+				
+
+				<div>
+				<!--- Radio buttons are a way of selecting many options -->
+
+					<h4>Radio Buttons</h4>
+					<label for="radio-choice-1">Choice 1</label>
+					<input type="radio" name="radio-choice" id="radio-choice-1" value="choice-1" /> 
+
+					<label for="radio-choice-2">Choice 2</label>
+					<input type="radio" name="radio-choice" id="radio-choice-2" value="choice-2" /> 
+
+					<label for="radio-choice-3">Choice 3</label>
+					<input type="radio" name="radio-choice" id="radio-choice-3" value="choice-3" /> 
+
+					<label for="radio-choice-4">Choice 4</label>
+					<input type="radio" name="radio-choice" id="radio-choice-4" value="choice-4" /> 
+				</div>
+
+
+				<div>
+					<!-- Another method for selecting one of many options--> 
+
+					<!--  -->
+
+					<h4>Select Dropdown </h4>
+
+					<select name="select-choice" id="select-choice">
+
+					<option value="choice_1">Choice1</option>	
+					<option value="choice_2">Choice2</option>
+					<option value="choice_3">Choice3</option>
+					<option value="choice_4">Choice4</option>
+
+					</select>
+
+					<div>
+
+						<h4>Checkbox</h4>
+
+						<label for="checkbox-1">Checkbox 1:</label>
+						<input type="checkbox" name="checkbox-1" id="checkbox-1"/> 
+
+						<label for="checkbox-2">Checkbox 2:</label>
+						<input type="checkbox" name="checkbox-2" id="checkbox-2"/> 
+
+
+						<label for="checkbox-3">Checkbox 3:</label>
+						<input type="checkbox" name="checkbox-3" id="checkbox-3"/>
+
+
+						<label for="checkbox-4">Checkbox 4:</label>
+						<input type="checkbox" name="checkbox-4" id="checkbox-4"/>
+
+					</div>	
+
+
+
+				</fieldset>
+				</div>	
+				<fieldset>
+
+					<legend>Input fields</legend>
+
+					<div> 
+						<label for="name">Text Input:</label>
+						<input type="text" name="name" id="name" value="" />
+					</div>
+
+					<div>
+						<label for="textarea">Textarea:</label>
+						<textarea cols="40" rows="8" name="textarea" id="textarea"></textarea> 
+
+
+					</div>
+				</fieldset>
+				<!-- submits the form to the server using the action as the path -->
+				<!-- and the method specified  -->
+
+
+
+				<div>
+					<input type="submit" value="Submit" />
+
+				</div>	
+
+
+
+			</fieldset>
+		</form>
+
+
+
+
+	</body> 
+</html>
